@@ -1,0 +1,36 @@
+.feedback {
+    padding-bottom: 70px;
+}
+h2 {
+    margin-bottom: 70px;
+}
+.feedback-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    &__foto {
+        width: 169px;
+        height: 169px;
+    }
+    &__wrapper {
+        margin-left: 60px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__marathons {
+        font-size: 14px;
+        line-height: 2.6;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__descr {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}
